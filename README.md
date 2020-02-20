@@ -1,2 +1,2 @@
-# Eagle_PCBs
-Repo for all my various PCBs made in Eagle that others may find useful.
+# Synchronous Test Board
+PCB to test the EG2131 bootstrapping synchronous gate driver. Ended up switching to FD2203S which has same footprint/pinout but better performance. Board includes headers for switching Vin/Vout, power supply to gate driver (12V), Lin/Hin control for gate drive, positions for gate resistors (and pads to probe to indirectly measure gate drive current), positions for input and output shunt resistors (and associated pads) for measuring input/output current and voltage.
